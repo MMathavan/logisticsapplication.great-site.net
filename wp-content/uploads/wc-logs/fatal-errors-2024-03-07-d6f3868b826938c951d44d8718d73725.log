@@ -1,0 +1,286 @@
+2024-03-07T08:10:29+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:11:39+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:15:19+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:16:52+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:47:37+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:49:50+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:50:10+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:50:47+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:51:05+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:55:02+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:56:00+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:56:50+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
+2024-03-07T08:58:49+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php:132
+Stack trace:
+#0 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php(132): _('Receiver Addres...', 'woocommerce')
+#1 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): shipchange('Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#2 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ship to a diffe...', Array)
+#3 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'Ship to a diffe...', 'Ship to a diffe...', 'essential-addon...')
+#4 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\l10n.php(297): translate('Ship to a diffe...', 'essential-addon...')
+#5 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Woo_Checkout.php(573): __('Ship to a diffe...', 'essential-addon...')
+#6 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2358): Essential_Addons_Elementor\Elements\Woo_Checkout->register_controls()
+#7 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(1044): Elementor\Controls_Stack->init_controls()
+#8 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(541): Elementor\Widget_Base->init_controls()
+#9 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(181): Elementor\Controls_Stack->get_stack()
+#10 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(388): Elementor\Widget_Base->get_stack(false)
+#11 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#12 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#13 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#14 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#17 {main}
+  thrown in C:\Users\HP\Local Sites\logisticsapplication\app\public\wp-content\themes\generatepress\functions.php on line 132
+
